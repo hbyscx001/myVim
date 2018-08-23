@@ -17,7 +17,7 @@ Plugin 'a.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
-Bundle 'sjl/gundo.vim'
+Plugin 'sjl/gundo.vim'
 
 "Python plugin
 Plugin 'python-mode/python-mode'
