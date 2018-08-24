@@ -1,4 +1,4 @@
-set nocompatible
+set nocompatible nu
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -72,6 +72,8 @@ let g:autopep8_disable_show_diff=1
 
 " python settings
 let g:pymode_virtualenv = 1
+let g:pymode_init = 0
+let g:pymode_lint = 0
 
 "Key map
 let mapleader=","
