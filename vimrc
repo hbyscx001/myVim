@@ -17,6 +17,7 @@ Plugin 'a.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'sjl/gundo.vim'
 
 "Python plugin
 Plugin 'python-mode/python-mode'
@@ -77,13 +78,14 @@ let g:pymode_lint = 0
 
 "Key map
 let mapleader=","
-nmap <special> <F2> :TlistToggle<CR>
-nmap <special> <F3> :NERDTreeToggle<CR>
+nnoremap <silent> <leader>tb :TagbarToggle<CR>
+nnoremap <silent> <leader>nt :NERDTreeToggle<CR>
 nnoremap <leader>e :e ~/.vimrc<CR>
 nnoremap <leader>ga :YcmCompleter GoToDefinitionElseDeclaration
 nnoremap <leader>n :tabnext<CR>
 nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>c :tabclose<CR>
+nnoremap <leader>h :GundoToggle<CR>
 map <special> <F5> :w<CR> :call RunPython()<CR>
 
 
