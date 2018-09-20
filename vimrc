@@ -7,7 +7,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'taglist.vim'
-Plugin 'nerdtree'
 Plugin 'DoxygenToolkit.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Valloric/YouCompleteMe'
@@ -18,6 +17,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'sjl/gundo.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'majutsushi/tagbar'
 
 "Python plugin
 Plugin 'python-mode/python-mode'
