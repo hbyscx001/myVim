@@ -23,6 +23,9 @@ Plugin 'majutsushi/tagbar'
 "Python plugin
 Plugin 'python-mode/python-mode'
 
+"Go plugin
+Plugin 'fatih/vim-go'
+
 call vundle#end()
 
 filetype plugin on
